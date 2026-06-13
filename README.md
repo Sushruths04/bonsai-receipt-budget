@@ -14,6 +14,8 @@ tags:
   - minicpm
   - modal
   - off-brand
+  - openai-codex
+  - codex
 ---
 
 # Bonsai — see where it goes, receipt by receipt
@@ -87,7 +89,13 @@ Space itself only needs a CPU container. (A ZeroGPU fallback exists behind
   persistent storage on.
 - Demo video: _<link>_ · Social post: _<link>_
 
+## Build credit
+
+Built and shipped with **OpenAI Codex**. Codex was used for repo inspection,
+implementation fixes, dependency pinning, Modal deployment debugging, local
+verification, Git setup, and the GitHub push workflow.
+
 ## Tech & sponsors
 
 Backyard AI · OpenBMB (MiniCPM-V core) · Modal (serverless GPU runtime) ·
-Open Food Facts (category labels) · Off Brand (custom UI).
+Open Food Facts (category labels) · Off Brand (custom UI) · OpenAI Codex.

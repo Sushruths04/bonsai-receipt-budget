@@ -62,6 +62,12 @@ def extract_receipt(image_path: str) -> Receipt:
         raw = resp.choices[0].message.content
 
     data = json.loads(raw)  # guaranteed valid by guided decoding
+    for key in ("store", "date", "currency"):
+        if data.get(key) == "":
+            data[key] = None
+    for item in data.get("items", []):
+        if item.get("unit_price") == 0:
+            item["unit_price"] = None
     receipt = Receipt.model_validate(data)
     if receipt.total is None and receipt.items:
         receipt.total = receipt.line_sum()

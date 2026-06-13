@@ -1,0 +1,14 @@
+# Hugging Face Space (Gradio frontend) dependencies.
+# NOTE: no torch / vllm here on purpose — all GPU work lives in the Modal image
+# (see modal_app.py). The Space is a lightweight CPU container.
+gradio>=4.44,<5
+huggingface_hub>=0.25,<1
+fastapi>=0.112,<0.113
+starlette>=0.37,<0.39
+plotly>=5.22
+pandas>=2.2
+pydantic>=2.7
+openai>=1.40          # OpenAI-compatible client for the vLLM endpoint on Modal
+requests>=2.32
+pillow>=10.3
+python-dotenv>=1.0

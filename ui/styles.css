@@ -1,0 +1,53 @@
+/* Bonsai — editorial, calm, distinctly not-default-Gradio.
+   One accent (pine green), warm neutrals, real type scale. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap');
+
+:root {
+  --pine: #2f6f4e;
+  --pine-dark: #245a3f;
+  --ink: #1f2421;
+  --muted: #6b736e;
+  --paper: #faf9f6;
+  --card: #ffffff;
+  --line: #ecebe5;
+  --warn: #c2613f;
+}
+
+.gradio-container, .gradio-container * { font-family: 'Inter', system-ui, sans-serif; }
+.gradio-container { background: var(--paper) !important; max-width: 1080px !important; }
+footer { display: none !important; }
+
+/* Header / wordmark */
+#bonsai-header { display: flex; align-items: baseline; gap: 12px; padding: 6px 2px 2px; }
+#bonsai-header .mark { font-family: 'Fraunces', serif; font-size: 30px; font-weight: 600;
+  color: var(--pine); letter-spacing: -0.5px; }
+#bonsai-header .tag { color: var(--muted); font-size: 14px; }
+
+/* Cards */
+.bonsai-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 22px; box-shadow: 0 1px 2px rgba(31,36,33,0.04); }
+
+/* KPI tiles */
+.kpi { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  padding: 18px 20px; }
+.kpi .label { color: var(--muted); font-size: 12px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em; }
+.kpi .value { color: var(--ink); font-size: 30px; font-weight: 700; margin-top: 4px;
+  font-variant-numeric: tabular-nums; }
+.kpi .value.warn { color: var(--warn); }
+.kpi .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+
+/* Budget bar */
+.budget-track { height: 10px; background: var(--line); border-radius: 999px; overflow: hidden; margin-top: 10px; }
+.budget-fill { height: 100%; background: var(--pine); border-radius: 999px; }
+.budget-fill.over { background: var(--warn); }
+
+/* Primary button — square-ish, confident, not the default pill */
+button.primary, .primary button { background: var(--pine) !important; border: none !important;
+  border-radius: 10px !important; font-weight: 600 !important; }
+button.primary:hover, .primary button:hover { background: var(--pine-dark) !important; }
+
+/* Insight callout */
+.insight { border-left: 3px solid var(--pine); padding: 4px 0 4px 14px; color: var(--ink);
+  font-size: 15px; line-height: 1.5; }
+.insight .muted { color: var(--muted); font-size: 14px; }

@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+data/
+*.local.db
+.DS_Store
+.gradio/
+offline_cache/

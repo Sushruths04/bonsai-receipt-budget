@@ -1,0 +1,28 @@
+store,date,currency,item,qty,unit_price,line_total,category
+REWE,2026-04-06,EUR,Vollkornbrot,1,1.99,1.99,groceries
+REWE,2026-04-06,EUR,Bananen,1,1.20,1.20,healthy
+REWE,2026-04-06,EUR,Cola 1.5L,2,1.49,2.98,drinks
+REWE,2026-04-06,EUR,Chips Paprika,2,1.79,3.58,junk
+REWE,2026-04-06,EUR,Eier 10er,1,2.49,2.49,groceries
+Aldi,2026-04-19,EUR,Haferflocken,1,0.99,0.99,groceries
+Aldi,2026-04-19,EUR,Tomaten,1,1.49,1.49,healthy
+Aldi,2026-04-19,EUR,Schokolade,3,0.99,2.97,junk
+Aldi,2026-04-19,EUR,Mineralwasser 6er,1,2.29,2.29,drinks
+Spaeti,2026-04-24,EUR,Bier 0.5L,4,1.20,4.80,drinks
+Spaeti,2026-04-24,EUR,Haribo,2,1.49,2.98,junk
+REWE,2026-05-08,EUR,Vollkornbrot,1,1.99,1.99,groceries
+REWE,2026-05-08,EUR,Apfel,1,2.10,2.10,healthy
+REWE,2026-05-08,EUR,Chips Paprika,1,1.79,1.79,junk
+REWE,2026-05-08,EUR,Spuelmittel,1,1.29,1.29,household
+REWE,2026-05-08,EUR,Kaffee 500g,1,4.99,4.99,drinks
+Aldi,2026-05-21,EUR,Salat,1,0.89,0.89,healthy
+Aldi,2026-05-21,EUR,Pasta,2,0.79,1.58,groceries
+Aldi,2026-05-21,EUR,Cola 1.5L,2,1.49,2.98,drinks
+Kino,2026-05-23,EUR,Kinoticket,1,11.50,11.50,activities
+REWE,2026-06-04,EUR,Vollkornbrot,1,1.99,1.99,groceries
+REWE,2026-06-04,EUR,Bananen,1,1.20,1.20,healthy
+REWE,2026-06-04,EUR,Eier 10er,1,2.49,2.49,groceries
+REWE,2026-06-04,EUR,Chips Paprika,1,1.79,1.79,junk
+Spaeti,2026-06-09,EUR,Bier 0.5L,3,1.20,3.60,drinks
+Spaeti,2026-06-09,EUR,Schokolade,2,0.99,1.98,junk
+Restaurant,2026-06-11,EUR,Doener,2,7.50,15.00,activities
